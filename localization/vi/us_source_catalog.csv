@@ -1,0 +1,226 @@
+key,source_file,category,symbol,index,field,original
+g_MenuStr[0].text,src/config_us.h,menu,g_MenuStr,0,text,ALUCARD
+g_MenuStr[1].text,src/config_us.h,menu,g_MenuStr,1,text,STR
+g_MenuStr[2].text,src/config_us.h,menu,g_MenuStr,2,text,CON
+g_MenuStr[3].text,src/config_us.h,menu,g_MenuStr,3,text,INT
+g_MenuStr[4].text,src/config_us.h,menu,g_MenuStr,4,text,LCK
+g_MenuStr[5].text,src/config_us.h,menu,g_MenuStr,5,text,EXP
+g_MenuStr[6].text,src/config_us.h,menu,g_MenuStr,6,text,NEXT
+g_MenuStr[7].text,src/config_us.h,menu,g_MenuStr,7,text,GOLD
+g_MenuStr[8].text,src/config_us.h,menu,g_MenuStr,8,text,LEVEL
+g_MenuStr[9].text,src/config_us.h,menu,g_MenuStr,9,text,TIME
+g_MenuStr[10].text,src/config_us.h,menu,g_MenuStr,10,text,ROOMS
+g_MenuStr[11].text,src/config_us.h,menu,g_MenuStr,11,text,KILLS
+g_MenuStr[12].text,src/config_us.h,menu,g_MenuStr,12,text,HP
+g_MenuStr[13].text,src/config_us.h,menu,g_MenuStr,13,text,MP
+g_MenuStr[14].text,src/config_us.h,menu,g_MenuStr,14,text,HEART
+g_MenuStr[15].text,src/config_us.h,menu,g_MenuStr,15,text,STATUS
+g_MenuStr[16].text,src/config_us.h,menu,g_MenuStr,16,text,Button settings
+g_MenuStr[17].text,src/config_us.h,menu,g_MenuStr,17,text,Cloak lining
+g_MenuStr[18].text,src/config_us.h,menu,g_MenuStr,18,text,Cloak color
+g_MenuStr[19].text,src/config_us.h,menu,g_MenuStr,19,text,・・・・・
+g_MenuStr[20].text,src/config_us.h,menu,g_MenuStr,20,text,Exterior
+g_MenuStr[21].text,src/config_us.h,menu,g_MenuStr,21,text,Lining
+g_MenuStr[22].text,src/config_us.h,menu,g_MenuStr,22,text,Right hand
+g_MenuStr[23].text,src/config_us.h,menu,g_MenuStr,23,text,Left hand
+g_MenuStr[24].text,src/config_us.h,menu,g_MenuStr,24,text,Jump
+g_MenuStr[25].text,src/config_us.h,menu,g_MenuStr,25,text,Special
+g_MenuStr[26].text,src/config_us.h,menu,g_MenuStr,26,text,Wolf
+g_MenuStr[27].text,src/config_us.h,menu,g_MenuStr,27,text,Mist
+g_MenuStr[28].text,src/config_us.h,menu,g_MenuStr,28,text,Bat
+g_MenuStr[29].text,src/config_us.h,menu,g_MenuStr,29,text,かいはつ
+g_MenuStr[30].text,src/config_us.h,menu,g_MenuStr,30,text,Normal
+g_MenuStr[31].text,src/config_us.h,menu,g_MenuStr,31,text,Reverse
+g_MenuStr[32].text,src/config_us.h,menu,g_MenuStr,32,text,Sound
+g_MenuStr[33].text,src/config_us.h,menu,g_MenuStr,33,text,Stereo
+g_MenuStr[34].text,src/config_us.h,menu,g_MenuStr,34,text,Mono
+g_MenuStr[35].text,src/config_us.h,menu,g_MenuStr,35,text,Window color
+g_MenuStr[36].text,src/config_us.h,menu,g_MenuStr,36,text,Time attack
+g_MenuStr[37].text,src/config_us.h,menu,g_MenuStr,37,text,GOOD
+g_MenuStr[38].text,src/config_us.h,menu,g_MenuStr,38,text,POISON
+g_MenuStr[39].text,src/config_us.h,menu,g_MenuStr,39,text,STONE
+g_MenuStr[40].text,src/config_us.h,menu,g_MenuStr,40,text,CURSE
+g_MenuStr[41].text,src/config_us.h,menu,g_MenuStr,41,text,------------------------------
+g_MenuStr[42].text,src/config_us.h,menu,g_MenuStr,42,text,ALUCART
+g_MenuStr[43].text,src/config_us.h,menu,g_MenuStr,43,text,れべる
+g_MenuStr[44].text,src/config_us.h,menu,g_MenuStr,44,text,けいけんち
+g_MenuStr[45].text,src/config_us.h,menu,g_MenuStr,45,text,alucart
+g_MenuStr[46].text,src/config_us.h,menu,g_MenuStr,46,text,Bat
+g_MenuStr[47].text,src/config_us.h,menu,g_MenuStr,47,text,Ghost
+g_MenuStr[48].text,src/config_us.h,menu,g_MenuStr,48,text,Faerie
+g_MenuStr[49].text,src/config_us.h,menu,g_MenuStr,49,text,Demon
+g_MenuStr[50].text,src/config_us.h,menu,g_MenuStr,50,text,Sword
+g_MenuStr[51].text,src/config_us.h,menu,g_MenuStr,51,text,ようせい
+g_MenuStr[52].text,src/config_us.h,menu,g_MenuStr,52,text,はなあくま
+g_MenuStr[53].text,src/config_us.h,menu,g_MenuStr,53,text,Richter defeats Dracula
+g_MenuStr[54].text,src/config_us.h,menu,g_MenuStr,54,text,Defeat Olrox
+g_MenuStr[55].text,src/config_us.h,menu,g_MenuStr,55,text,Defeat Doppleganger 10
+g_MenuStr[56].text,src/config_us.h,menu,g_MenuStr,56,text,Defeat Granfaloon
+g_MenuStr[57].text,src/config_us.h,menu,g_MenuStr,57,text,Defeat Minotaur and Werewolf
+g_MenuStr[58].text,src/config_us.h,menu,g_MenuStr,58,text,Defeat Scylla
+g_MenuStr[59].text,src/config_us.h,menu,g_MenuStr,59,text,Defeat Slogra and Gaibon
+g_MenuStr[60].text,src/config_us.h,menu,g_MenuStr,60,text,Defeat Hippogryph
+g_MenuStr[61].text,src/config_us.h,menu,g_MenuStr,61,text,Defeat Beelzebub
+g_MenuStr[62].text,src/config_us.h,menu,g_MenuStr,62,text,Defeat Succubus
+g_MenuStr[63].text,src/config_us.h,menu,g_MenuStr,63,text,Defeat Karasuman
+g_MenuStr[64].text,src/config_us.h,menu,g_MenuStr,64,text,"Defeat Ralph, Grant & Sypha"
+g_MenuStr[65].text,src/config_us.h,menu,g_MenuStr,65,text,Defeat Death
+g_MenuStr[66].text,src/config_us.h,menu,g_MenuStr,66,text,Defeat Cerberus
+g_MenuStr[67].text,src/config_us.h,menu,g_MenuStr,67,text,Save Richter Belmont
+g_MenuStr[68].text,src/config_us.h,menu,g_MenuStr,68,text,Defeat Medusa
+g_MenuStr[69].text,src/config_us.h,menu,g_MenuStr,69,text,Defeat the Creature
+g_MenuStr[70].text,src/config_us.h,menu,g_MenuStr,70,text,Defeat Lesser Demon
+g_MenuStr[71].text,src/config_us.h,menu,g_MenuStr,71,text,Defeat Doppleganger 40
+g_MenuStr[72].text,src/config_us.h,menu,g_MenuStr,72,text,Defeat Akmodan II
+g_MenuStr[73].text,src/config_us.h,menu,g_MenuStr,73,text,Defeat Darkwing Bat
+g_MenuStr[74].text,src/config_us.h,menu,g_MenuStr,74,text,Defeat Galamoth
+g_MenuStr[75].text,src/config_us.h,menu,g_MenuStr,75,text,Final Save point
+g_MenuStr[76].text,src/config_us.h,menu,g_MenuStr,76,text,Meeting with Death
+g_MenuStr[77].text,src/config_us.h,menu,g_MenuStr,77,text,Get Holy Glasses from Maria
+g_MenuStr[78].text,src/config_us.h,menu,g_MenuStr,78,text,Meeting with Master Librarian
+g_MenuStr[79].text,src/config_us.h,menu,g_MenuStr,79,text,First Maria meeting
+g_MenuStr[85].text,src/config_us.h,menu,g_MenuStr,85,text,Right hand
+g_MenuStr[86].text,src/config_us.h,menu,g_MenuStr,86,text, Left hand
+g_MenuStr[87].text,src/config_us.h,menu,g_MenuStr,87,text,   Head
+g_MenuStr[88].text,src/config_us.h,menu,g_MenuStr,88,text,   Body
+g_MenuStr[89].text,src/config_us.h,menu,g_MenuStr,89,text,   Cloak
+g_MenuStr[90].text,src/config_us.h,menu,g_MenuStr,90,text,   Other
+g_MenuStr[91].text,src/config_us.h,menu,g_MenuStr,91,text,   Other
+g_MenuStr[92].text,src/config_us.h,menu,g_MenuStr,92,text,Equip
+g_MenuStr[93].text,src/config_us.h,menu,g_MenuStr,93,text,Spells
+g_MenuStr[94].text,src/config_us.h,menu,g_MenuStr,94,text,Relics
+g_MenuStr[95].text,src/config_us.h,menu,g_MenuStr,95,text,System
+g_MenuStr[96].text,src/config_us.h,menu,g_MenuStr,96,text,Familiars
+g_MenuStr[97].text,src/config_us.h,menu,g_MenuStr,97,text,Familiar List
+g_MenuStr[98].text,src/config_us.h,menu,g_MenuStr,98,text,Special Moves List
+g_MenuStr[99].text,src/config_us.h,menu,g_MenuStr,99,text,S.sword
+g_MenuStr[100].text,src/config_us.h,menu,g_MenuStr,100,text,Sword
+g_MenuStr[101].text,src/config_us.h,menu,g_MenuStr,101,text,Throw 1
+g_MenuStr[102].text,src/config_us.h,menu,g_MenuStr,102,text,Fist
+g_MenuStr[103].text,src/config_us.h,menu,g_MenuStr,103,text,Club
+g_MenuStr[104].text,src/config_us.h,menu,g_MenuStr,104,text,Two-hand
+g_MenuStr[105].text,src/config_us.h,menu,g_MenuStr,105,text,Food
+g_MenuStr[106].text,src/config_us.h,menu,g_MenuStr,106,text,Bomb
+g_MenuStr[107].text,src/config_us.h,menu,g_MenuStr,107,text,Throw 2
+g_MenuStr[108].text,src/config_us.h,menu,g_MenuStr,108,text,Shield
+g_MenuStr[109].text,src/config_us.h,menu,g_MenuStr,109,text,Medicine
+g_SpellDefs[0].name,src/config_us.h,spell,g_SpellDefs,0,name,Dark Metamorphosis
+g_SpellDefs[0].description,src/config_us.h,spell,g_SpellDefs,0,description,Heal HP by shedding blood
+g_SpellDefs[1].name,src/config_us.h,spell,g_SpellDefs,1,name,Summon Spirit
+g_SpellDefs[1].description,src/config_us.h,spell,g_SpellDefs,1,description,Summons a fierce spirit
+g_SpellDefs[2].name,src/config_us.h,spell,g_SpellDefs,2,name,Hellfire
+g_SpellDefs[2].description,src/config_us.h,spell,g_SpellDefs,2,description,Transport and fireball attack
+g_SpellDefs[3].name,src/config_us.h,spell,g_SpellDefs,3,name,Tetra Spirit
+g_SpellDefs[3].description,src/config_us.h,spell,g_SpellDefs,3,description,Summons four spirits
+g_SpellDefs[4].name,src/config_us.h,spell,g_SpellDefs,4,name,Wolf Charge
+g_SpellDefs[4].description,src/config_us.h,spell,g_SpellDefs,4,description,Powerful attack by Wolf
+g_SpellDefs[5].name,src/config_us.h,spell,g_SpellDefs,5,name,Soul Steal
+g_SpellDefs[5].description,src/config_us.h,spell,g_SpellDefs,5,description,Steals HP from nearby enemies
+g_SpellDefs[6].name,src/config_us.h,spell,g_SpellDefs,6,name,Wing Smash
+g_SpellDefs[6].description,src/config_us.h,spell,g_SpellDefs,6,description,Powerful attack by Bat
+g_SpellDefs[7].name,src/config_us.h,spell,g_SpellDefs,7,name,Sword Brothers
+g_SpellDefs[7].description,src/config_us.h,spell,g_SpellDefs,7,description,Summons Sword Brothers
+g_RelicDefs[0].name,src/config_us.h,relic,g_RelicDefs,0,name, Soul of Bat
+g_RelicDefs[0].description,src/config_us.h,relic,g_RelicDefs,0,description,Transform into Bat
+g_RelicDefs[1].name,src/config_us.h,relic,g_RelicDefs,1,name,Fire of Bat
+g_RelicDefs[1].description,src/config_us.h,relic,g_RelicDefs,1,description,Shoot fireballs as Bat
+g_RelicDefs[2].name,src/config_us.h,relic,g_RelicDefs,2,name, Echo of Bat
+g_RelicDefs[2].description,src/config_us.h,relic,g_RelicDefs,2,description,Use radar as Bat
+g_RelicDefs[3].name,src/config_us.h,relic,g_RelicDefs,3,name,Force of Echo
+g_RelicDefs[3].description,src/config_us.h,relic,g_RelicDefs,3,description,Attack with radar waves
+g_RelicDefs[4].name,src/config_us.h,relic,g_RelicDefs,4,name, Soul of Wolf
+g_RelicDefs[4].description,src/config_us.h,relic,g_RelicDefs,4,description,Transform into Wolf
+g_RelicDefs[5].name,src/config_us.h,relic,g_RelicDefs,5,name,Power of Wolf
+g_RelicDefs[5].description,src/config_us.h,relic,g_RelicDefs,5,description,Run swiftly as Wolf
+g_RelicDefs[6].name,src/config_us.h,relic,g_RelicDefs,6,name, Skill of Wolf
+g_RelicDefs[6].description,src/config_us.h,relic,g_RelicDefs,6,description,Special move as Wolf
+g_RelicDefs[7].name,src/config_us.h,relic,g_RelicDefs,7,name,Form of Mist
+g_RelicDefs[7].description,src/config_us.h,relic,g_RelicDefs,7,description,Transform into Mist
+g_RelicDefs[8].name,src/config_us.h,relic,g_RelicDefs,8,name, Power of Mist
+g_RelicDefs[8].description,src/config_us.h,relic,g_RelicDefs,8,description,Extends Mist transform time
+g_RelicDefs[9].name,src/config_us.h,relic,g_RelicDefs,9,name,Gas Cloud
+g_RelicDefs[9].description,src/config_us.h,relic,g_RelicDefs,9,description,Transform into poisonous cloud
+g_RelicDefs[10].name,src/config_us.h,relic,g_RelicDefs,10,name, Cube of Zoe
+g_RelicDefs[10].description,src/config_us.h,relic,g_RelicDefs,10,description,Causes items to materialize
+g_RelicDefs[11].name,src/config_us.h,relic,g_RelicDefs,11,name,Spirit Orb
+g_RelicDefs[11].description,src/config_us.h,relic,g_RelicDefs,11,description,Shows enemy damage
+g_RelicDefs[12].name,src/config_us.h,relic,g_RelicDefs,12,name, Gravity Boots
+g_RelicDefs[12].description,src/config_us.h,relic,g_RelicDefs,12,description,Wearer can jump high
+g_RelicDefs[13].name,src/config_us.h,relic,g_RelicDefs,13,name,Leap Stone
+g_RelicDefs[13].description,src/config_us.h,relic,g_RelicDefs,13,description,Wearer can do double jump
+g_RelicDefs[14].name,src/config_us.h,relic,g_RelicDefs,14,name, Holy Symbol
+g_RelicDefs[14].description,src/config_us.h,relic,g_RelicDefs,14,description,Protection while underwater
+g_RelicDefs[15].name,src/config_us.h,relic,g_RelicDefs,15,name,Faerie Scroll
+g_RelicDefs[15].description,src/config_us.h,relic,g_RelicDefs,15,description,Displays enemy’s name 
+g_RelicDefs[16].name,src/config_us.h,relic,g_RelicDefs,16,name, Jewel of Open
+g_RelicDefs[16].description,src/config_us.h,relic,g_RelicDefs,16,description,Can open locked blue doors
+g_RelicDefs[17].name,src/config_us.h,relic,g_RelicDefs,17,name,Merman Statue
+g_RelicDefs[17].description,src/config_us.h,relic,g_RelicDefs,17,description,Summons the oarsman
+g_RelicDefs[18].name,src/config_us.h,relic,g_RelicDefs,18,name, Bat Card
+g_RelicDefs[18].description,src/config_us.h,relic,g_RelicDefs,18,description,Summons ””Bat”” familiar
+g_RelicDefs[19].name,src/config_us.h,relic,g_RelicDefs,19,name,Ghost Card
+g_RelicDefs[19].description,src/config_us.h,relic,g_RelicDefs,19,description,Summons ””Ghost”” familiar
+g_RelicDefs[20].name,src/config_us.h,relic,g_RelicDefs,20,name, Faerie Card
+g_RelicDefs[20].description,src/config_us.h,relic,g_RelicDefs,20,description,Summons ””Faerie”” familiar
+g_RelicDefs[21].name,src/config_us.h,relic,g_RelicDefs,21,name,Demon Card
+g_RelicDefs[21].description,src/config_us.h,relic,g_RelicDefs,21,description,Summons ””Devil”” familiar
+g_RelicDefs[22].name,src/config_us.h,relic,g_RelicDefs,22,name, Sword Card
+g_RelicDefs[22].description,src/config_us.h,relic,g_RelicDefs,22,description,Summons ””Sword”” familiar
+g_RelicDefs[23].name,src/config_us.h,relic,g_RelicDefs,23,name,Sprite Card
+g_RelicDefs[23].description,src/config_us.h,relic,g_RelicDefs,23,description,Summons ””Pixie”” familiar
+g_RelicDefs[24].name,src/config_us.h,relic,g_RelicDefs,24,name, Nosedevil Card
+g_RelicDefs[24].description,src/config_us.h,relic,g_RelicDefs,24,description,Summons ””Nose−devil”” familiar
+g_RelicDefs[25].name,src/config_us.h,relic,g_RelicDefs,25,name,Heart of Vlad
+g_RelicDefs[25].description,src/config_us.h,relic,g_RelicDefs,25,description,１ of ５ Treasures． Avoid Curse．
+g_RelicDefs[26].name,src/config_us.h,relic,g_RelicDefs,26,name, Tooth of Vlad
+g_RelicDefs[26].description,src/config_us.h,relic,g_RelicDefs,26,description,１ of ５ Treasures． STR ＋１０
+g_RelicDefs[27].name,src/config_us.h,relic,g_RelicDefs,27,name,Rib of Vlad
+g_RelicDefs[27].description,src/config_us.h,relic,g_RelicDefs,27,description,１ of ５ Treasures． CON ＋１０
+g_RelicDefs[28].name,src/config_us.h,relic,g_RelicDefs,28,name, Ring of Vlad
+g_RelicDefs[28].description,src/config_us.h,relic,g_RelicDefs,28,description,１ of ５ Treasures． INT ＋１０
+g_RelicDefs[29].name,src/config_us.h,relic,g_RelicDefs,29,name,Eye of Vlad
+g_RelicDefs[29].description,src/config_us.h,relic,g_RelicDefs,29,description,１ of ５ Treasures． LCK ＋１０
+D_80180128[0].part1,src/st/sel/2C048.c,stage,D_80180128,0,part1,Marble
+D_80180128[0].part2,src/st/sel/2C048.c,stage,D_80180128,0,part2,Gallery
+D_80180128[1].part1,src/st/sel/2C048.c,stage,D_80180128,1,part1,Outer
+D_80180128[1].part2,src/st/sel/2C048.c,stage,D_80180128,1,part2,Wall
+D_80180128[2].part1,src/st/sel/2C048.c,stage,D_80180128,2,part1,Long
+D_80180128[2].part2,src/st/sel/2C048.c,stage,D_80180128,2,part2,Library
+D_80180128[3].part1,src/st/sel/2C048.c,stage,D_80180128,3,part1,Catacombs
+D_80180128[4].part1,src/st/sel/2C048.c,stage,D_80180128,4,part1,Olrox's
+D_80180128[4].part2,src/st/sel/2C048.c,stage,D_80180128,4,part2,Quarters
+D_80180128[5].part1,src/st/sel/2C048.c,stage,D_80180128,5,part1,Abandoned
+D_80180128[5].part2,src/st/sel/2C048.c,stage,D_80180128,5,part2,Mine
+D_80180128[6].part1,src/st/sel/2C048.c,stage,D_80180128,6,part1,Royal
+D_80180128[6].part2,src/st/sel/2C048.c,stage,D_80180128,6,part2,Chapel
+D_80180128[7].part1,src/st/sel/2C048.c,stage,D_80180128,7,part1,Entrance
+D_80180128[9].part1,src/st/sel/2C048.c,stage,D_80180128,9,part1,Underground
+D_80180128[9].part2,src/st/sel/2C048.c,stage,D_80180128,9,part2,Caverns
+D_80180128[10].part1,src/st/sel/2C048.c,stage,D_80180128,10,part1,Colosseum
+D_80180128[11].part1,src/st/sel/2C048.c,stage,D_80180128,11,part1,Castle
+D_80180128[11].part2,src/st/sel/2C048.c,stage,D_80180128,11,part2,Keep
+D_80180128[12].part1,src/st/sel/2C048.c,stage,D_80180128,12,part1,Alchemy
+D_80180128[12].part2,src/st/sel/2C048.c,stage,D_80180128,12,part2,Laboratory
+D_80180128[32].part1,src/st/sel/2C048.c,stage,D_80180128,32,part1,Black Marble
+D_80180128[32].part2,src/st/sel/2C048.c,stage,D_80180128,32,part2,Gallery
+D_80180128[33].part1,src/st/sel/2C048.c,stage,D_80180128,33,part1,Reverse
+D_80180128[33].part2,src/st/sel/2C048.c,stage,D_80180128,33,part2,Outer Wall
+D_80180128[34].part1,src/st/sel/2C048.c,stage,D_80180128,34,part1,Forbidden
+D_80180128[34].part2,src/st/sel/2C048.c,stage,D_80180128,34,part2,Library
+D_80180128[35].part1,src/st/sel/2C048.c,stage,D_80180128,35,part1,Floating
+D_80180128[35].part2,src/st/sel/2C048.c,stage,D_80180128,35,part2,Catacombs
+D_80180128[36].part1,src/st/sel/2C048.c,stage,D_80180128,36,part1,Death Wing's
+D_80180128[36].part2,src/st/sel/2C048.c,stage,D_80180128,36,part2,Lair
+D_80180128[37].part1,src/st/sel/2C048.c,stage,D_80180128,37,part1,Cave
+D_80180128[38].part1,src/st/sel/2C048.c,stage,D_80180128,38,part1,Anti-Chapel
+D_80180128[39].part1,src/st/sel/2C048.c,stage,D_80180128,39,part1,Reverse
+D_80180128[39].part2,src/st/sel/2C048.c,stage,D_80180128,39,part2,Entrance
+D_80180128[41].part1,src/st/sel/2C048.c,stage,D_80180128,41,part1,Reverce
+D_80180128[41].part2,src/st/sel/2C048.c,stage,D_80180128,41,part2,Caverns
+D_80180128[42].part1,src/st/sel/2C048.c,stage,D_80180128,42,part1,Reverce
+D_80180128[42].part2,src/st/sel/2C048.c,stage,D_80180128,42,part2,Colosseum
+D_80180128[43].part1,src/st/sel/2C048.c,stage,D_80180128,43,part1,Reverce
+D_80180128[43].part2,src/st/sel/2C048.c,stage,D_80180128,43,part2,Keep
+D_80180128[44].part1,src/st/sel/2C048.c,stage,D_80180128,44,part1,Necromancy
+D_80180128[44].part2,src/st/sel/2C048.c,stage,D_80180128,44,part2,Laboratory
+D_80180128[65].part1,src/st/sel/2C048.c,stage,D_80180128,65,part1,Entrance
