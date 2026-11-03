@@ -67,6 +67,54 @@ class DiscPreflightTests(unittest.TestCase):
             with self.assertRaisesRegex(DiscError, "outside"):
                 preflight(cue)
 
+    def test_reads_actual_system_cnf_boot_entry_from_synthetic_iso9660(self):
+        """Mock only the sectors and directory records, never retail game data."""
+        def record(name: bytes, lba: int, size: int) -> bytes:
+            length = 33 + len(name)
+            if length % 2:
+                length += 1
+            data = bytearray(length)
+            data[0] = length
+            data[2:6] = lba.to_bytes(4, "little")
+            data[6:10] = lba.to_bytes(4, "big")
+            data[10:14] = size.to_bytes(4, "little")
+            data[14:18] = size.to_bytes(4, "big")
+            data[28:30] = (1).to_bytes(2, "little")
+            data[30:32] = (1).to_bytes(2, "big")
+            data[32] = len(name)
+            data[33:33 + len(name)] = name
+            return bytes(data)
+
+        buf = bytearray(2352 * 24)
+        pvd = 16 * 2352 + 24
+        buf[pvd:pvd + 7] = b"\x01CD001\x01"
+        buf[pvd + 156:pvd + 190] = record(b"\x00", 18, 2048)
+        data_dir = 18 * 2352 + 24
+        entry = record(b"SYSTEM.CNF;1", 19, 64)
+        buf[data_dir:data_dir + len(entry)] = entry
+        system = b"BOOT = cdrom:\\SLUS_000.67;1\r\n"
+        data_file = 19 * 2352 + 24
+        buf[data_file:data_file + len(system)] = system
+
+        with tempfile.TemporaryDirectory() as tmp:
+            image = Path(tmp) / "synthetic.bin"
+            image.write_bytes(buf)
+            report = inspect_image(image)
+            self.assertEqual(report["system_cnf_boot_serial"], "SLUS_000.67")
+            self.assertTrue(report["matches_us_reference_boot_name"])
+            self.assertEqual(image.stat().st_size, len(buf))
+
+        # A PAL boot entry must not accidentally pass the US reference test.
+        buf[data_file:data_file + len(system)] = (
+            b"BOOT = cdrom:\\SLES_005.24;1\r\n" + bytes(2)
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            image = Path(tmp) / "synthetic_pal.bin"
+            image.write_bytes(buf)
+            report = inspect_image(image)
+            self.assertEqual(report["system_cnf_boot_serial"], "SLES_005.24")
+            self.assertFalse(report["matches_us_reference_boot_name"])
+
     def test_reject_missing_file(self):
         with tempfile.TemporaryDirectory() as tmp:
             with self.assertRaises(DiscError):
