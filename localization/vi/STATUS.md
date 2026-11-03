@@ -53,7 +53,7 @@ Các bước sau khi có BIN/CUE:
 - Đã bổ sung công cụ chuyển CHD sang `disks/sotn.us.cue` và `disks/sotn.us.bin`
   bằng MAME `chdman`, luôn kiểm tra trước và từ chối ghi đè.
 - Lệnh build chuẩn dựa trên hướng dẫn chính thức của sotn-decomp:
-  `make extract_disk`, `make extract -j`, `make build -j`, `make check`.
+  `make extract_disk`, `make extract -j`, `make build -j` (build tự kiểm tra checksum khi không có `SKIP_CHECK`).
 - Đây là công cụ và kiểm thử **dùng mẫu dữ liệu giả lập**. Không có chứng cứ
   rằng một file CHD người dùng gửi đã được đọc hoặc chuyển đổi thành công.
 - Chi tiết: [CHD_INSTRUCTIONS.md](CHD_INSTRUCTIONS.md).
