@@ -1,0 +1,14 @@
+key,original,decision,reason
+g_MenuStr[0].text,ALUCARD,preserve,Tên riêng nhân vật
+g_MenuStr[1].text,STR,preserve,Ký hiệu chỉ số sức mạnh
+g_MenuStr[2].text,CON,preserve,Ký hiệu chỉ số thể chất
+g_MenuStr[3].text,INT,preserve,Ký hiệu chỉ số trí tuệ
+g_MenuStr[4].text,LCK,preserve,Ký hiệu chỉ số may mắn
+g_MenuStr[5].text,EXP,preserve,Ký hiệu kinh nghiệm
+g_MenuStr[12].text,HP,preserve,Ký hiệu điểm sinh lực
+g_MenuStr[13].text,MP,preserve,Ký hiệu điểm ma lực
+g_MenuStr[19].text,・・・・・,defer,Ký tự trang trí cần kiểm tra ngữ cảnh hiển thị
+g_MenuStr[29].text,かいはつ,defer,Chuỗi nội bộ tiếng Nhật chưa xác nhận có xuất hiện
+g_MenuStr[41].text,------------------------------,preserve,Ký tự phân cách giao diện
+g_MenuStr[42].text,ALUCART,preserve,Tên riêng cố ý khác ALUCARD
+g_MenuStr[45].text,alucart,preserve,Giữ nguyên tên riêng dạng chữ thường
