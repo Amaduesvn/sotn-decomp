@@ -63,7 +63,7 @@ class DiscPreflightTests(unittest.TestCase):
             root = Path(tmp) / "disc"
             root.mkdir()
             cue = root / "test.cue"
-            cue.write_text('FILE "../private.bin" BINARY\\n  TRACK 01 MODE2/2352\\n')
+            cue.write_text('FILE "../private.bin" BINARY\n  TRACK 01 MODE2/2352\n')
             with self.assertRaisesRegex(DiscError, "outside"):
                 preflight(cue)
 
