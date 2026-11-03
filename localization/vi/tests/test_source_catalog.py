@@ -66,7 +66,7 @@ class CatalogTests(unittest.TestCase):
 
     def test_csv_quoting_roundtrip(self):
         rows = extract_array(
-            MAIN.replace('Button settings', 'Button, "revised" settings'),
+            MAIN.replace('Button settings', 'Button, \\"revised\\" settings'),
             "src/config_us.h", "g_MenuStr", "menu"
         )
         saved = serialize(rows)
@@ -80,8 +80,8 @@ class CatalogTests(unittest.TestCase):
             (root / "src/config_us.h").write_text(MAIN, encoding="utf-8")
             (root / "src/st/sel/2C048.c").write_text(SELECT, encoding="utf-8")
             rows = catalog(root)
-        self.assertEqual(len(rows), 8)
-        self.assertEqual(len({x["key"] for x in rows}), 8)
+        self.assertEqual(len(rows), 9)
+        self.assertEqual(len({x["key"] for x in rows}), 9)
 
 
 if __name__ == "__main__":
