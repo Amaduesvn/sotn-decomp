@@ -32,6 +32,8 @@ jobs:
         run: python3 -m unittest discover -s localization/vi/tests -v
       - name: Source and font coverage audit
         run: python3 localization/vi/tools/audit.py --json
+      - name: Validate CHD inspection code (unit tests)
+        run: python3 -m unittest localization.vi.tests.test_chd_preflight -v
       - name: Full Vietnamese alphabet mapping report
         run: python3 localization/vi/tools/charset.py
       - name: US text-related asset inventory
