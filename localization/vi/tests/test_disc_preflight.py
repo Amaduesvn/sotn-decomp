@@ -14,7 +14,7 @@ class DiscPreflightTests(unittest.TestCase):
         file = root / "test disc.bin"
         buffer = bytearray(2352 * 20)
         buffer[16 * 2352 + 24 + 1:16 * 2352 + 24 + 6] = b"CD001"
-        buffer[100:112] = b"SLUS_000.67"
+        buffer[100:111] = b"SLUS_000.67"
         file.write_bytes(buffer)
         return file
 
