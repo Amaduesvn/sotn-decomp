@@ -30,11 +30,15 @@ g_MenuStr[37].text,GOOD,BÌNH THƯỜNG,draft,Chưa kiểm tra chiều rộng v�
 g_MenuStr[38].text,POISON,TRÚNG ĐỘC,draft,Chưa kiểm tra chiều rộng và font trên PS1
 g_MenuStr[39].text,STONE,HÓA ĐÁ,draft,Chưa kiểm tra chiều rộng và font trên PS1
 g_MenuStr[40].text,CURSE,BỊ NGUYỀN,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[43].text,れべる,Cấp độ,draft,Chuỗi tiếng Nhật còn nằm trong bảng US; cần kiểm tra có xuất hiện trong game hay không
+g_MenuStr[44].text,けいけんち,Kinh nghiệm,draft,Chuỗi tiếng Nhật còn nằm trong bảng US; cần kiểm tra có xuất hiện trong game hay không
 g_MenuStr[46].text,Bat,Dơi,draft,Chưa kiểm tra chiều rộng và font trên PS1
 g_MenuStr[47].text,Ghost,Ma,draft,Chưa kiểm tra chiều rộng và font trên PS1
 g_MenuStr[48].text,Faerie,Tiên,draft,Chưa kiểm tra chiều rộng và font trên PS1
 g_MenuStr[49].text,Demon,Quỷ,draft,Chưa kiểm tra chiều rộng và font trên PS1
 g_MenuStr[50].text,Sword,Kiếm,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[51].text,ようせい,Tiên,draft,Chuỗi tiếng Nhật còn nằm trong bảng US; cần kiểm tra có xuất hiện trong game hay không
+g_MenuStr[52].text,はなあくま,Quỷ mũi dài,draft,Chuỗi tiếng Nhật còn nằm trong bảng US; cần kiểm tra có xuất hiện trong game hay không
 g_MenuStr[53].text,Richter defeats Dracula,Richter đánh bại Dracula,draft,Chưa kiểm tra chiều rộng và font trên PS1
 g_MenuStr[54].text,Defeat Olrox,Đánh bại Olrox,draft,Chưa kiểm tra chiều rộng và font trên PS1
 g_MenuStr[55].text,Defeat Doppleganger 10,Đánh bại Doppelganger 10,draft,Chưa kiểm tra chiều rộng và font trên PS1
