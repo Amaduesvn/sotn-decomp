@@ -41,3 +41,6 @@ jobs:
 
       - name: Validate Vietnamese translation drafts
         run: python3 localization/vi/tools/validate_drafts.py --summary
+
+      - name: Validate full Vietnamese area-name drafts
+        run: python3 localization/vi/tools/validate_stage_names.py
