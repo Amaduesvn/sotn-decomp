@@ -32,3 +32,7 @@ jobs:
         run: python3 -m unittest discover -s localization/vi/tests -v
       - name: Source and font coverage audit
         run: python3 localization/vi/tools/audit.py --json
+      - name: Full Vietnamese alphabet mapping report
+        run: python3 localization/vi/tools/charset.py
+      - name: US text-related asset inventory
+        run: python3 localization/vi/tools/asset_inventory.py --summary
