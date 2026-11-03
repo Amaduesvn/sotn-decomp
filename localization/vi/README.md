@@ -50,3 +50,22 @@ The upstream repository states that it does not bundle game assets or assembly c
 Upstream: https://github.com/Xeeynamo/sotn-decomp
 
 This directory is part of a fork of that open-source decompilation. Follow the repository's existing license and preserve upstream attribution.
+
+
+## Current offline engineering checks (2026-11-03)
+
+- Run the checked-in unit tests: python3 -m unittest discover -s localization/vi/tests -v
+- Check US menu draft provenance and font warnings: python3 localization/vi/tools/audit.py --json
+- Count Vietnamese alphabet glyphs missing from the current PS1 8x8 code page: python3 localization/vi/tools/charset.py
+- Inventory declared translatable PS1 US asset locations: python3 localization/vi/tools/asset_inventory.py --summary
+- See ENGINE_NOTES.md for render-path limitations and the first actual-game prototype plan.
+
+The initial US settings-menu draft covers 6 of 6 meaningful strings in that
+one small source array; it is **not** six of all the game's texts. The source
+inventory identifies 25 relevant asset declarations, including 14 cutscene
+script declarations. Those are locations to investigate, not string counts.
+
+GitHub Actions workflow Vietnamese Localization QA runs the offline checks
+on updates to this branch. Successful source/QA checks do not establish a
+working Vietnamese patch: a legally obtained SLUS-00067 disc image and
+local build/emulator tests remain necessary.
