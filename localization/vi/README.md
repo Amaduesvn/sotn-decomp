@@ -90,3 +90,17 @@ assets to this repository.
 **No in-game Vietnamese text, playable patch or font modification has been
 validated yet.** The numbers above describe source analysis and translation
 drafts, not percentage of game localized.
+
+## CHD upload and local conversion
+
+The localization toolchain now accepts a **CHD disc image** at the preparation
+stage. [CHD_INSTRUCTIONS.md](CHD_INSTRUCTIONS.md) explains how to inspect a
+CHD header and convert the user's local CD image with MAME `chdman` to the
+`disks/sotn.us.cue` + `disks/sotn.us.bin` filenames expected by upstream.
+
+- `tools/chd_preflight.py`: identify CHD headers v3–v5 without decompression.
+- `tools/prepare_chd.py`: dry-run by default; `--extract` writes local ignored
+  BIN/CUE using `chdman extractcd`.
+- Neither tool can certify a US SLUS-00067 game by header alone.
+- Synthetic unit tests pass in GitHub Actions; this is not a claim that the
+  user-provided CHD has been opened, decoded or matched successfully.
