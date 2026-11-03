@@ -69,3 +69,24 @@ GitHub Actions workflow Vietnamese Localization QA runs the offline checks
 on updates to this branch. Successful source/QA checks do not establish a
 working Vietnamese patch: a legally obtained SLUS-00067 disc image and
 local build/emulator tests remain necessary.
+
+
+## Current project state (2026-11-03)
+
+See [STATUS.md](STATUS.md) for the detailed pre-BIN handoff and [GLOSSARY.md](GLOSSARY.md) for terminology.
+
+- [us_source_catalog.csv](us_source_catalog.csv): **225** identified nonempty C-source text entries.
+- [us_translation_draft.csv](us_translation_draft.csv): **168** drafts (92 menu strings, 16 spell strings, 60 relic strings).
+- [stage_names_draft.csv](stage_names_draft.csv): **25** full area-name drafts, awaiting two-line layout.
+- [menu_preserve_defer.csv](menu_preserve_defer.csv): **13** intentionally preserved/deferred strings.
+- [tools/cutscene_staging.py](tools/cutscene_staging.py): safely prepare cutscene YAML translations while leaving event commands unchanged; not yet PS1-encodable.
+- [tools/disc_preflight.py](tools/disc_preflight.py): non-destructive local BIN/CUE inspection.
+- [tools/source_coverage.py](tools/source_coverage.py): fail when any of the 225 source entries is unclassified.
+
+The next substantial work needs a legally obtained PS1 US **SLUS-00067** disc image
+and, preferably, its matching **CUE** file. Do not commit game images or retail
+assets to this repository.
+
+**No in-game Vietnamese text, playable patch or font modification has been
+validated yet.** The numbers above describe source analysis and translation
+drafts, not percentage of game localized.
