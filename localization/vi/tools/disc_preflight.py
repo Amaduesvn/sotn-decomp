@@ -52,6 +52,75 @@ def cue_sources(source: str) -> tuple[list[str], list[dict]]:
     return list(dict.fromkeys(files)), tracks
 
 
+SYSTEM_CNF_BOOT_PATTERN = re.compile(
+    rb"\bBOOT2?\s*=\s*cdrom\s*:\s*\\*\s*([A-Z]{4}[_-]\d{3}[.]\d{2})",
+    re.IGNORECASE,
+)
+
+
+def _read_sector(stream, lba: int, stride: int, user_offset: int) -> bytes:
+    """Read one 2048-byte user-data sector without modifying the image."""
+    stream.seek(lba * stride + user_offset)
+    return stream.read(SECTOR_ISO)
+
+
+def _read_extent(stream, lba: int, size: int, stride: int, user_offset: int) -> bytes:
+    """Read a bounded extent from an ISO9660 data track."""
+    if lba < 0 or size <= 0 or size > 65536:
+        return b""
+    chunks = []
+    for block in range((size + SECTOR_ISO - 1) // SECTOR_ISO):
+        payload = _read_sector(stream, lba + block, stride, user_offset)
+        if len(payload) != SECTOR_ISO:
+            return b""
+        chunks.append(payload)
+    return b"".join(chunks)[:size]
+
+
+def _directory_entry_extent(record: bytes) -> tuple[int, int] | None:
+    if len(record) < 34 or record[0] < 34 or len(record) < record[0]:
+        return None
+    lba = int.from_bytes(record[2:6], "little")
+    size = int.from_bytes(record[10:14], "little")
+    return lba, size
+
+
+def _read_system_cnf_serial(stream, stride: int, user_offset: int) -> str | None:
+    """Inspect SYSTEM.CNF through ISO9660 records rather than guessing by filename.
+
+    Handles common single-data-track images and does not authenticate disc
+    provenance. A successful read is evidence of the BOOT entry only.
+    """
+    pvd = _read_sector(stream, 16, stride, user_offset)
+    if len(pvd) != SECTOR_ISO or pvd[:7] != b"\x01CD001\x01":
+        return None
+    root_length = pvd[156]
+    root = _directory_entry_extent(pvd[156:156 + root_length])
+    if root is None:
+        return None
+    directory = _read_extent(stream, *root, stride, user_offset)
+    pos = 0
+    while pos < len(directory):
+        length = directory[pos]
+        if length == 0:
+            pos = ((pos // SECTOR_ISO) + 1) * SECTOR_ISO
+            continue
+        if pos + length > len(directory) or length < 34:
+            return None
+        record = directory[pos:pos + length]
+        name_length = record[32]
+        name = record[33:33 + name_length].upper()
+        if name in {b"SYSTEM.CNF", b"SYSTEM.CNF;1"}:
+            extent = _directory_entry_extent(record)
+            if extent is None:
+                return None
+            text = _read_extent(stream, *extent, stride, user_offset)
+            match = SYSTEM_CNF_BOOT_PATTERN.search(text)
+            return match.group(1).decode("ascii").upper() if match else None
+        pos += length
+    return None
+
+
 def inspect_image(path: Path, hash_full: bool = False) -> dict:
     if not path.is_file():
         raise DiscError(f"Image not found: {path.name}")
@@ -71,6 +140,12 @@ def inspect_image(path: Path, hash_full: bool = False) -> dict:
             stream.seek(16 * stride + start + 1)
             if stream.read(5) == b"CD001":
                 candidates.append(label)
+        serial_from_system_cnf = None
+        for stride, start, label in options:
+            if label in candidates:
+                serial_from_system_cnf = _read_system_cnf_serial(stream, stride, start)
+                if serial_from_system_cnf:
+                    break
         stream.seek(0)
         sample = stream.read(min(length, 4 * 1024 * 1024))
         serial_in_sample = bool(BOOT_PATTERN.search(sample))
@@ -88,6 +163,8 @@ def inspect_image(path: Path, hash_full: bool = False) -> dict:
         "multiple_of_2048": length % SECTOR_ISO == 0,
         "iso9660_pvd_candidates": candidates,
         "us_serial_seen_in_first_4mib": serial_in_sample,
+        "system_cnf_boot_serial": serial_from_system_cnf,
+        "matches_us_reference_boot_name": serial_from_system_cnf == "SLUS_000.67",
         "sha256": digest,
         "note": (
             "Serial and PVD heuristics are not sufficient to authenticate a "
