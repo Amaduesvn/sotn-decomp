@@ -103,7 +103,11 @@ def preflight(path: Path, hash_full: bool = False) -> dict:
             raise DiscError("CUE file does not exist")
         files, tracks = cue_sources(path.read_text(encoding="utf-8-sig"))
         # Resolve only local files referenced by the CUE, never remote URLs.
-        images = [inspect_image(path.parent / name, hash_full) for name in files]
+        disc_dir = path.parent.resolve()
+        image_paths = [(disc_dir / name).resolve() for name in files]
+        if any(not img.is_relative_to(disc_dir) for img in image_paths):
+            raise DiscError("CUE references an image outside the CUE directory")
+        images = [inspect_image(img, hash_full) for img in image_paths]
         return {
             "input": path.name,
             "format": "cue",
