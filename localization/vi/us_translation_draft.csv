@@ -1,0 +1,165 @@
+key,original,vi,status,notes
+g_MenuStr[6].text,NEXT,KẾ TIẾP,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[7].text,GOLD,VÀNG,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[8].text,LEVEL,CẤP ĐỘ,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[9].text,TIME,THỜI GIAN,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[10].text,ROOMS,SỐ PHÒNG,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[11].text,KILLS,HẠ GỤC,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[14].text,HEART,TIM,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[15].text,STATUS,TRẠNG THÁI,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[16].text,Button settings,Thiết lập nút,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[17].text,Cloak lining,Mặt trong áo choàng,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[18].text,Cloak color,Màu áo choàng,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[20].text,Exterior,Mặt ngoài,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[21].text,Lining,Mặt trong,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[22].text,Right hand,Tay phải,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[23].text,Left hand,Tay trái,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[24].text,Jump,Nhảy,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[25].text,Special,Đặc biệt,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[26].text,Wolf,Sói,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[27].text,Mist,Sương,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[28].text,Bat,Dơi,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[30].text,Normal,Thường,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[31].text,Reverse,Đảo ngược,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[32].text,Sound,Âm thanh,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[33].text,Stereo,Âm nổi,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[34].text,Mono,Âm đơn,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[35].text,Window color,Màu khung,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[36].text,Time attack,Thử thách thời gian,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[37].text,GOOD,BÌNH THƯỜNG,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[38].text,POISON,TRÚNG ĐỘC,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[39].text,STONE,HÓA ĐÁ,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[40].text,CURSE,BỊ NGUYỀN,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[46].text,Bat,Dơi,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[47].text,Ghost,Ma,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[48].text,Faerie,Tiên,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[49].text,Demon,Quỷ,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[50].text,Sword,Kiếm,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[53].text,Richter defeats Dracula,Richter đánh bại Dracula,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[54].text,Defeat Olrox,Đánh bại Olrox,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[55].text,Defeat Doppleganger 10,Đánh bại Doppelganger 10,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[56].text,Defeat Granfaloon,Đánh bại Granfaloon,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[57].text,Defeat Minotaur and Werewolf,Đánh bại Minotaur và Werewolf,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[58].text,Defeat Scylla,Đánh bại Scylla,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[59].text,Defeat Slogra and Gaibon,Đánh bại Slogra và Gaibon,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[60].text,Defeat Hippogryph,Đánh bại Hippogryph,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[61].text,Defeat Beelzebub,Đánh bại Beelzebub,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[62].text,Defeat Succubus,Đánh bại Succubus,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[63].text,Defeat Karasuman,Đánh bại Karasuman,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[64].text,"Defeat Ralph, Grant & Sypha","Đánh bại Ralph, Grant và Sypha",draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[65].text,Defeat Death,Đánh bại Death,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[66].text,Defeat Cerberus,Đánh bại Cerberus,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[67].text,Save Richter Belmont,Giải cứu Richter Belmont,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[68].text,Defeat Medusa,Đánh bại Medusa,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[69].text,Defeat the Creature,Đánh bại the Creature,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[70].text,Defeat Lesser Demon,Đánh bại Lesser Demon,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[71].text,Defeat Doppleganger 40,Đánh bại Doppelganger 40,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[72].text,Defeat Akmodan II,Đánh bại Akmodan II,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[73].text,Defeat Darkwing Bat,Đánh bại Darkwing Bat,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[74].text,Defeat Galamoth,Đánh bại Galamoth,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[75].text,Final Save point,Điểm lưu cuối,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[76].text,Meeting with Death,Gặp Death,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[77].text,Get Holy Glasses from Maria,Nhận Kính Thánh từ Maria,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[78].text,Meeting with Master Librarian,Gặp Chủ thư viện,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[79].text,First Maria meeting,Lần đầu gặp Maria,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[85].text,Right hand,Tay phải,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[86].text, Left hand, Tay trái,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[87].text,   Head,   Đầu,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[88].text,   Body,   Thân,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[89].text,   Cloak,   Áo choàng,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[90].text,   Other,   Khác,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[91].text,   Other,   Khác,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[92].text,Equip,Trang bị,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[93].text,Spells,Phép thuật,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[94].text,Relics,Di vật,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[95].text,System,Hệ thống,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[96].text,Familiars,Trợ thủ,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[97].text,Familiar List,Danh sách trợ thủ,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[98].text,Special Moves List,Danh sách tuyệt kỹ,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[99].text,S.sword,Kiếm linh,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[100].text,Sword,Kiếm,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[101].text,Throw 1,Ném 1,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[102].text,Fist,Tay không,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[103].text,Club,Chùy,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[104].text,Two-hand,Hai tay,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[105].text,Food,Thức ăn,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[106].text,Bomb,Bom,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[107].text,Throw 2,Ném 2,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[108].text,Shield,Khiên,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_MenuStr[109].text,Medicine,Thuốc,draft,Chưa kiểm tra chiều rộng và font trên PS1
+g_SpellDefs[0].name,Dark Metamorphosis,Biến hóa hắc ám,draft,Cần kiểm tra font và độ dài tên
+g_SpellDefs[0].description,Heal HP by shedding blood,Hồi HP nhờ máu,draft,Cần xác minh font mô tả và độ dài khung
+g_SpellDefs[1].name,Summon Spirit,Triệu hồi linh hồn,draft,Cần kiểm tra font và độ dài tên
+g_SpellDefs[1].description,Summons a fierce spirit,Triệu hồi linh hồn hung dữ,draft,Cần xác minh font mô tả và độ dài khung
+g_SpellDefs[2].name,Hellfire,Lửa địa ngục,draft,Cần kiểm tra font và độ dài tên
+g_SpellDefs[2].description,Transport and fireball attack,Dịch chuyển rồi phóng cầu lửa,draft,Cần xác minh font mô tả và độ dài khung
+g_SpellDefs[3].name,Tetra Spirit,Tứ linh hồn,draft,Cần kiểm tra font và độ dài tên
+g_SpellDefs[3].description,Summons four spirits,Triệu hồi bốn linh hồn,draft,Cần xác minh font mô tả và độ dài khung
+g_SpellDefs[4].name,Wolf Charge,Sói xung kích,draft,Cần kiểm tra font và độ dài tên
+g_SpellDefs[4].description,Powerful attack by Wolf,Đòn lao mạnh khi hóa sói,draft,Cần xác minh font mô tả và độ dài khung
+g_SpellDefs[5].name,Soul Steal,Đoạt hồn,draft,Cần kiểm tra font và độ dài tên
+g_SpellDefs[5].description,Steals HP from nearby enemies,Hút HP của kẻ địch xung quanh,draft,Cần xác minh font mô tả và độ dài khung
+g_SpellDefs[6].name,Wing Smash,Dơi đột kích,draft,Cần kiểm tra font và độ dài tên
+g_SpellDefs[6].description,Powerful attack by Bat,Đòn lao mạnh khi hóa dơi,draft,Cần xác minh font mô tả và độ dài khung
+g_SpellDefs[7].name,Sword Brothers,Kiếm huynh đệ,draft,Cần kiểm tra font và độ dài tên
+g_SpellDefs[7].description,Summons Sword Brothers,Triệu hồi các thanh kiếm đồng hành,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[0].name, Soul of Bat, Linh hồn Dơi,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[0].description,Transform into Bat,Biến thành dơi,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[1].name,Fire of Bat,Lửa của Dơi,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[1].description,Shoot fireballs as Bat,Bắn cầu lửa khi hóa dơi,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[2].name, Echo of Bat, Tiếng vọng Dơi,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[2].description,Use radar as Bat,Dùng sóng định vị khi hóa dơi,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[3].name,Force of Echo,Sức mạnh Tiếng vọng,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[3].description,Attack with radar waves,Tấn công bằng sóng định vị,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[4].name, Soul of Wolf, Linh hồn Sói,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[4].description,Transform into Wolf,Biến thành sói,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[5].name,Power of Wolf,Sức mạnh Sói,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[5].description,Run swiftly as Wolf,Chạy nhanh khi hóa sói,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[6].name, Skill of Wolf, Kỹ năng Sói,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[6].description,Special move as Wolf,Dùng tuyệt kỹ khi hóa sói,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[7].name,Form of Mist,Hình thái Sương,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[7].description,Transform into Mist,Biến thành sương,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[8].name, Power of Mist, Sức mạnh Sương,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[8].description,Extends Mist transform time,Kéo dài thời gian hóa sương,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[9].name,Gas Cloud,Mây độc,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[9].description,Transform into poisonous cloud,Biến thành đám mây độc,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[10].name, Cube of Zoe, Khối Zoe,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[10].description,Causes items to materialize,Khiến vật phẩm xuất hiện,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[11].name,Spirit Orb,Ngọc Linh hồn,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[11].description,Shows enemy damage,Hiện sát thương gây lên địch,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[12].name, Gravity Boots, Ủng Trọng lực,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[12].description,Wearer can jump high,Cho phép nhảy cao,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[13].name,Leap Stone,Đá Nhảy kép,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[13].description,Wearer can do double jump,Cho phép nhảy hai lần,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[14].name, Holy Symbol, Biểu tượng Thánh,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[14].description,Protection while underwater,Bảo vệ khi ở dưới nước,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[15].name,Faerie Scroll,Cuộn giấy Tiên,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[15].description,Displays enemy’s name ,Hiện tên kẻ địch,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[16].name, Jewel of Open, Ngọc Mở cửa,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[16].description,Can open locked blue doors,Mở các cửa khóa ánh xanh,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[17].name,Merman Statue,Tượng Người cá,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[17].description,Summons the oarsman,Triệu hồi người chèo thuyền,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[18].name, Bat Card, Thẻ Dơi,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[18].description,Summons ””Bat”” familiar,Triệu hồi trợ thủ Dơi,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[19].name,Ghost Card,Thẻ Ma,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[19].description,Summons ””Ghost”” familiar,Triệu hồi trợ thủ Ma,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[20].name, Faerie Card, Thẻ Tiên,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[20].description,Summons ””Faerie”” familiar,Triệu hồi trợ thủ Tiên,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[21].name,Demon Card,Thẻ Quỷ,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[21].description,Summons ””Devil”” familiar,Triệu hồi trợ thủ Quỷ,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[22].name, Sword Card, Thẻ Kiếm,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[22].description,Summons ””Sword”” familiar,Triệu hồi trợ thủ Kiếm,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[23].name,Sprite Card,Thẻ Sprite,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[23].description,Summons ””Pixie”” familiar,Triệu hồi trợ thủ Sprite,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[24].name, Nosedevil Card, Thẻ Quỷ mũi dài,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[24].description,Summons ””Nose−devil”” familiar,Triệu hồi trợ thủ Quỷ mũi dài,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[25].name,Heart of Vlad,Tim Vlad,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[25].description,１ of ５ Treasures． Avoid Curse．,Một trong năm bảo vật. Chống nguyền rủa,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[26].name, Tooth of Vlad, Răng Vlad,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[26].description,１ of ５ Treasures． STR ＋１０,Một trong năm bảo vật. STR +10,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[27].name,Rib of Vlad,Xương sườn Vlad,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[27].description,１ of ５ Treasures． CON ＋１０,Một trong năm bảo vật. CON +10,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[28].name, Ring of Vlad, Nhẫn Vlad,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[28].description,１ of ５ Treasures． INT ＋１０,Một trong năm bảo vật. INT +10,draft,Cần xác minh font mô tả và độ dài khung
+g_RelicDefs[29].name,Eye of Vlad,Mắt Vlad,draft,Cần kiểm tra font và độ dài tên
+g_RelicDefs[29].description,１ of ５ Treasures． LCK ＋１０,Một trong năm bảo vật. LCK +10,draft,Cần xác minh font mô tả và độ dài khung
