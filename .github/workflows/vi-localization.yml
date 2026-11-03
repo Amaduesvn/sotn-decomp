@@ -36,3 +36,5 @@ jobs:
         run: python3 localization/vi/tools/charset.py
       - name: US text-related asset inventory
         run: python3 localization/vi/tools/asset_inventory.py --summary
+      - name: Verify checked-in US source-text catalog
+        run: python3 localization/vi/tools/source_catalog.py --check localization/vi/us_source_catalog.csv
