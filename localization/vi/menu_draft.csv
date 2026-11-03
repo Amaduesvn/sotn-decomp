@@ -1,0 +1,7 @@
+source_file,source_symbol,platform,original,vi,status,notes
+src/dra/menu.c,D_800A2D48[1],us,Button set−up,Thiết lập nút,draft,Verify available width and font
+src/dra/menu.c,D_800A2D48[2],us,Select front／back of reversible cloak,Chọn mặt trước/sau áo choàng,draft,May need shorter rendering due to narrow layout
+src/dra/menu.c,D_800A2D48[3],us,Custom cloak settings,Tùy chỉnh áo choàng,draft,Verify available width and font
+src/dra/menu.c,D_800A2D48[4],us,Window color settings,Màu khung cửa sổ,draft,Verify available width and font
+src/dra/menu.c,D_800A2D48[5],us,Sound settings,Cài đặt âm thanh,draft,Verify available width and font
+src/dra/menu.c,D_800A2D48[6],us,Time from game start,Thời gian đã chơi,draft,Verify available width and font
