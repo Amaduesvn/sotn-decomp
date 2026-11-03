@@ -46,3 +46,14 @@ Các bước sau khi có BIN/CUE:
 - Dự án chưa sửa font của game hoặc thay dữ liệu văn bản trong bản PS1.
 - Tỷ lệ 225/225 nguồn đã phân loại **không phải 100% nội dung của SOTN**.
 - File YAML UTF-8 của công cụ cutscene staging **không được biên dịch trực tiếp** bằng builder hiện tại trước khi sửa cơ chế mã hóa.
+
+## Bổ sung hỗ trợ CHD
+
+- Đã bổ sung công cụ kiểm tra header CHD v3–v5, không cần giải nén để xem định dạng.
+- Đã bổ sung công cụ chuyển CHD sang `disks/sotn.us.cue` và `disks/sotn.us.bin`
+  bằng MAME `chdman`, luôn kiểm tra trước và từ chối ghi đè.
+- Lệnh build chuẩn dựa trên hướng dẫn chính thức của sotn-decomp:
+  `make extract_disk`, `make extract -j`, `make build -j`, `make check`.
+- Đây là công cụ và kiểm thử **dùng mẫu dữ liệu giả lập**. Không có chứng cứ
+  rằng một file CHD người dùng gửi đã được đọc hoặc chuyển đổi thành công.
+- Chi tiết: [CHD_INSTRUCTIONS.md](CHD_INSTRUCTIONS.md).
