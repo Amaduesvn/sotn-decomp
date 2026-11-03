@@ -41,7 +41,7 @@ This runs the MAME `chdman extractcd` operation. It writes **only into the local
 - `disks/sotn.us.cue`
 - `disks/sotn.us.bin`
 
-The helper refuses to overwrite existing output files and reports basic CUE/sector information. If conversion fails, partial files may be left behind; diagnose before retrying. You can alternatively extract manually:
+The helper refuses to overwrite existing output files and reports CUE/sector information. Its BIN preflight now also inspects ISO9660's SYSTEM.CNF boot entry when available; the field system_cnf_boot_serial should be SLUS_000.67 for the intended US reference. That boot string is a strong version clue but is NOT an authenticity proof. If conversion fails, partial files may be left behind; diagnose before retrying. You can alternatively extract manually:
 
 ```sh
 cd disks
