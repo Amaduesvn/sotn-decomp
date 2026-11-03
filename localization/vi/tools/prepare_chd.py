@@ -84,7 +84,6 @@ def extract_to_disks(chd: Path, repo: Path) -> dict:
             "make extract_disk",
             "make extract -j",
             "make build -j",
-            "make check",
         ],
         "game_serial_verified": False,
         "reminder": "Do not upload files from disks/ to the public repository.",
