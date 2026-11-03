@@ -58,6 +58,15 @@ class DiscPreflightTests(unittest.TestCase):
             self.assertEqual(len(report["tracks"]), 1)
             self.assertEqual(original, image.read_bytes())
 
+    def test_reject_cue_path_traversal(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp) / "disc"
+            root.mkdir()
+            cue = root / "test.cue"
+            cue.write_text('FILE "../private.bin" BINARY\\n  TRACK 01 MODE2/2352\\n')
+            with self.assertRaisesRegex(DiscError, "outside"):
+                preflight(cue)
+
     def test_reject_missing_file(self):
         with tempfile.TemporaryDirectory() as tmp:
             with self.assertRaises(DiscError):
