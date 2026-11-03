@@ -59,10 +59,9 @@ Follow upstream [Build Wiki](https://github.com/Xeeynamo/sotn-decomp/wiki/Build)
 make extract_disk
 make extract -j
 make build -j
-make check
 ```
 
-Stop on errors. In particular, `make check` should verify the decompiled build against the correctly matched original game before we attempt any localization. A wrong revision, fan-patched CHD or a different region may not match.
+Stop on errors. `make build -j` already performs checksum validation (unless `SKIP_CHECK` is set), through `tools/sotn-assets/build.go` and `check.go`. The Makefile currently has no `make check` target. A different region, fan-patched CHD, or an unmatched source revision may fail this check.
 
 ## Step 4 — Use the extracted game for Vietnamese localization
 
